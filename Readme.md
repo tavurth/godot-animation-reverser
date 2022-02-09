@@ -29,3 +29,5 @@
 <img width="525" alt="Screenshot 2022-02-09 at 16 49 51" src="https://user-images.githubusercontent.com/100964/153214328-5ac2b2d4-f383-4870-b032-65d4cbd61fd6.png">
 
 4. The animation will then be duplicated, reversed and saved under "{original name}-reversed"
+
+<img width="796" alt="Screenshot 2022-02-09 at 16 51 38" src="https://user-images.githubusercontent.com/100964/153214641-b3f814da-835d-4129-ba7a-0de84d8ed0f2.png">
