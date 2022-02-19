@@ -1,10 +1,7 @@
-
 # Table of Contents
 
 1.  [Setup](#org2b55292)
 2.  [Reverse an animation](#org00203ee)
-
-
 
 <a id="org2b55292"></a>
 
@@ -13,7 +10,6 @@
 1.  Copy the `addons` folder into your project
 2.  Go to Project Settings -> Plugins
 3.  Enable the addons
-
 
 <a id="org00203ee"></a>
 
@@ -31,3 +27,5 @@
 4. The animation will then be duplicated, reversed and saved under "{original name}-reversed"
 
 <img width="796" alt="Screenshot 2022-02-09 at 16 51 38" src="https://user-images.githubusercontent.com/100964/153214641-b3f814da-835d-4129-ba7a-0de84d8ed0f2.png">
+
+<a href="https://www.buymeacoffee.com/tavurth" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
