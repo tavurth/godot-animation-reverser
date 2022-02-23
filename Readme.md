@@ -29,3 +29,12 @@
 <img width="796" alt="Screenshot 2022-02-09 at 16 51 38" src="https://user-images.githubusercontent.com/100964/153214641-b3f814da-835d-4129-ba7a-0de84d8ed0f2.png">
 
 <a href="https://www.buymeacoffee.com/tavurth" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+## Helper utilities
+
+If you have `backwards` or `forwards` in your animation name, they will be automatically reversed.
+
+I.e. an animation name of `run-forwards` will be reversed and the new animation will be named `run-backwards`.
+I.e. an animation name of `run-backwards` will be reversed and the new animation will be named `run-forwards`.
+
+If neither of these are found in your animation name, `-reversed` will be appended to the original name.

@@ -20,6 +20,15 @@ func handles(object: Object) -> bool:
 func edit(object: Object) -> void:
 	edited_animation_player = object
 
+func build_new_name(old_name: String):
+	if "backwards" in old_name:
+		return old_name.replace("backwards", "forwards")
+
+	if "forwards" in old_name:
+		return old_name.replace("forwards", "backwards")
+
+	return "{anim_name}-reversed".format({ "anim_name": old_name })
+
 func activate(ud = null):
 	if not edited_animation_player:
 		return
@@ -67,7 +76,8 @@ func activate(ud = null):
 	# Now set the track back to the original length
 	new_anim.set_length(anim.length)
 
-	var new_name = "{anim_name}-reversed".format({ "anim_name": anim_name })
+	var new_name = build_new_name(anim_name)
+
 	edited_animation_player.add_animation(new_name, new_anim)
 	edited_animation_player.set_current_animation(new_name)
 
