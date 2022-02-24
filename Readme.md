@@ -32,9 +32,21 @@
 
 ## Helper utilities
 
+### Autonaming
+
 If you have `backwards` or `forwards` in your animation name, they will be automatically reversed.
 
 I.e. an animation name of `run-forwards` will be reversed and the new animation will be named `run-backwards`.
 I.e. an animation name of `run-backwards` will be reversed and the new animation will be named `run-forwards`.
 
 If neither of these are found in your animation name, `-reversed` will be appended to the original name.
+
+### Calling from code
+
+The code is pretty performant and can be called in your `_ready` function if you need to.
+
+On my machine (Mac OSX) reversing an animation takes around `4 ms`
+
+You can call the `static` function `helper.reverse(animation_player, anim_name: String, new_name: String)` to reverse any animation in your animation player
+
+You can call the `static` function `helper.reverse_current(animation_player, new_name: String)` to reverse the current animation
